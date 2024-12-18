@@ -22,8 +22,13 @@ OnyxAU is a Python-based tool designed to automatically detect players and their
 
 ## Installation
 
-- **COMING SOON...**  
-  (We'll provide detailed installation instructions here once ready. Stay tuned!)
+### Simple Method - Run the Prebuilt Executable
+
+1. Download the [OnyxAU.exe](https://github.com/RonanCarty/OnyxAU/releases/download/Release/OnyxAU.exe) file.
+2. Run the executable after installation.
+
+> **Important:** Ensure that *Among Us* is running before launching the program.
+
 
 ## Disclaimer
 
