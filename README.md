@@ -15,6 +15,11 @@ OnyxAU is a Python-based tool designed to automatically detect players and their
 - **END:** Exit and close the program.
 - **DELETE:** Activate Panic mode to immediately close the program and delete any traces of it.
 
+## Preview
+![image](https://github.com/user-attachments/assets/cdf18397-79c0-4c62-ab78-ef4357feefad)
+![image](https://github.com/user-attachments/assets/3f0f0b0e-2f69-490d-b0f3-5337ad9e60af)
+
+
 ## Installation
 
 - **COMING SOON...**  
