@@ -55,9 +55,6 @@ class MemoryReader:
             canvas.pack(fill=tk.X, pady=2)
             self.player_labels.append(canvas)
 
-        self.footer_label = ttk.Label(self.main_frame, text="0: Close   ||   9: PANIC! (delete)", background="#2b2b2b", foreground="white", font=("Helvetica", 14))
-        self.footer_label.pack(side='bottom', fill='x', pady=5)
-
         self.auto_read_players()
 
     def resource_path(self, relative_path):
@@ -207,8 +204,8 @@ root.attributes('-topmost', True)
 
 memory_reader = MemoryReader(root, "Among Us.exe")
 
-keyboard.add_hotkey('0', lambda: on_close(root, memory_reader))
-keyboard.add_hotkey('9', lambda: self_delete())
+keyboard.add_hotkey('end', lambda: on_close(root, memory_reader))
+keyboard.add_hotkey('delete', lambda: self_delete())
 keyboard.add_hotkey('home', lambda: memory_reader.toggle_visibility())
 
 root.mainloop()
